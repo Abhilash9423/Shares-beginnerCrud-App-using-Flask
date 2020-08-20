@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron" >
+    <h1> enter the share name </h1>
+    <p> fill in the details below </p>
+    <form method='POST'>
+      {{ form.hidden_tag() }}
+      {{ form.name.label }} {{ form.name() }}
+      {{ form.price.label }} {{ form.price() }}
+      {{ form.quantity.label }} {{ form.quantity() }}
+      {{ form.submit() }}
+    </form>
+  </div>
+{% endblock %}

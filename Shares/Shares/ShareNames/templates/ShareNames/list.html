@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class='jumbotron'>
+<h1> below are the list of shares availabele </h1>
+  <ul>
+    {% for name in shar %}
+    <li> {{name}} </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}

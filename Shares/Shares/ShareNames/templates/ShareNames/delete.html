@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron" >
+  <h1> enter the id  of the share you want to delete </h1>
+  <p> fill in the details below </p>
+  <form method='POST'>
+    {{ form.hidden_tag() }}
+    {{ form.id.label }} {{ form.id() }}
+    {{ form.submit() }}
+  </form>
+</div>
+
+{% endblock %}
