@@ -1,5 +1,8 @@
 ## Shares-BeginnerCrud-App-using-Flask
-A basic CRUD application to input the name of share,its quantitya price using Flask,HTML,CSS, Boot Strap and SQLite
+
+A Server Sided CRUD web application for the benefit of retail traderin shares/stock for storing the shares purchased  sold and balance stocks,  built  in, Python Flask and  Flask Blueprints for modulatory. Application which has the features of few input fields in input tab and other tabs like Delete and Display of the listed stocks. 
+
+Built using Python, Flask,HTML,CSS and BootStrap.
 
 install the following
 ```
